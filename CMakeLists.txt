@@ -3,10 +3,12 @@ project(DataStructureAndAlgorithmUsingCpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-# add *.h dirs
-include_directories(.)
+add_subdirectory(googletest-release-1.11.0/)
 
-# find all *.cpp files
 aux_source_directory(. SRC_LIST)
+include_directories(. )
+include_directories(googletest-release-1.11.0/googletest/include googletest-release-1.11.0/googlemock/include)
 
 add_executable(DataStructureAndAlgorithmUsingCpp ${SRC_LIST})
+target_link_libraries(DataStructureAndAlgorithmUsingCpp gtest gtest_main)
+target_link_libraries(DataStructureAndAlgorithmUsingCpp gmock gmock_main)

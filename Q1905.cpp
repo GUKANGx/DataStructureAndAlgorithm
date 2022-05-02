@@ -80,11 +80,8 @@ public:
     }
 };
 
-
-void Q1905Main(void)
+TEST(leetcode, Q1905_1)
 {
-    cout << "Q1905: " << endl;
-
     vector<vector<int>> grid1 = {
             { 1, 1, 1, 0, 0 },
             { 0, 1, 1, 1, 1 },
@@ -102,8 +99,6 @@ void Q1905Main(void)
     };
 
     Solution s;
-    cout << s.countSubIslands(grid1, grid2) << endl;
-
-    cout << "Done" << endl;
+    ASSERT_EQ(s.countSubIslands(grid1, grid2), 3);
 }
 
