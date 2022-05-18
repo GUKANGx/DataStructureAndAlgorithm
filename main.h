@@ -10,8 +10,4 @@
 
 #include "gtest/gtest.h"
 
-void Q695Main(void);
-void Q3Main(void);
-void Q6Main(void);
-
 #endif //DATASTRUCTUREANDALGORITHM_MAIN_H

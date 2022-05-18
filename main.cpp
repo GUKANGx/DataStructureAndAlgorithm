@@ -2,8 +2,6 @@
 
 int main()
 {
-    // Q695Main();
-    // Q3Main();
-    // Q6Main();
+    testing::InitGoogleTest();
     return RUN_ALL_TESTS();
 }
