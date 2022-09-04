@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 project(DataStructureAndAlgorithmUsingCpp)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(googletest-release-1.11.0/)
 
