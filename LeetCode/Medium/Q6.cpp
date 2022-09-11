@@ -51,7 +51,7 @@ TEST(leetcode, Q6_1)
 {
     string str = "PAYPALISHIRING";
     int numRows = 3;
-    Solution s;
-    ASSERT_EQ(s.convert(str, numRows), "PAHNAPLSIIGYIR");
+    Solution solution;
+    ASSERT_EQ(solution.convert(str, numRows), "PAHNAPLSIIGYIR");
 }
 

@@ -27,7 +27,7 @@ namespace {
 TEST(leetcode, Q3_1)
 {
     string str = "abcabcbb";
-    Solution s;
-    ASSERT_EQ(s.lengthOfLongestSubstring(str), 3);
+    Solution solution;
+    ASSERT_EQ(solution.lengthOfLongestSubstring(str), 3);
 }
 

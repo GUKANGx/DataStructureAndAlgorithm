@@ -42,7 +42,7 @@ namespace {
 TEST(leetcode, Q12_1)
 {
     int num = 1994;
-    Solution s;
-    ASSERT_EQ(s.intToRoman(num), "MCMXCIV");
+    Solution solution;
+    ASSERT_EQ(solution.intToRoman(num), "MCMXCIV");
 }
 

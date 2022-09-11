@@ -62,6 +62,6 @@ TEST(leetcode, Q695_1)
             {0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0},
     };
 
-    Solution s;
-    ASSERT_EQ(s.maxAreaOfIsland(grid), 6);
+    Solution solution;
+    ASSERT_EQ(solution.maxAreaOfIsland(grid), 6);
 }

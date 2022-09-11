@@ -104,7 +104,7 @@ TEST(leetcode, Q1905_1)
             { 0, 1, 0, 1, 0 },
     };
 
-    Solution s;
-    ASSERT_EQ(s.countSubIslands(grid1, grid2), 3);
+    Solution solution;
+    ASSERT_EQ(solution.countSubIslands(grid1, grid2), 3);
 }
 
