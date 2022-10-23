@@ -1,52 +1,9 @@
 #include "main.h"
 
 using namespace std;
+using namespace Utils::MyLinkedList;
 
 namespace {
-    struct ListNode {
-        int val;
-        ListNode *next;
-        ListNode() : val(0), next(nullptr) {}
-        ListNode(int x) : val(x), next(nullptr) {}
-        ListNode(int x, ListNode *next) : val(x), next(next) {}
-    };
-
-    ListNode* CreateLinkedList(vector<int> &arr)
-    {
-        if (arr.empty()) {
-            return nullptr;
-        }
-        ListNode *head = new ListNode(arr[0], nullptr);
-        ListNode *tmp = head;
-        for (int i = 1; i < arr.size(); i++) {
-            tmp->next = new ListNode(arr[i], nullptr);
-            tmp = tmp->next;
-        }
-        return head;
-    }
-
-    void PrintLinkedList(ListNode *head)
-    {
-        while (head != nullptr) {
-            cout << head->val;
-            if (head->next != nullptr) {
-                cout << " -> ";
-            }
-            head = head->next;
-        }
-        cout << endl;
-    }
-
-    void FreeLinkedList(ListNode* head)
-    {
-        while (head != nullptr) {
-            ListNode *p = head;
-            head = head->next;
-            free(p);
-            p = nullptr;
-        }
-    }
-
     class Solution {
     public:
         ListNode* mergeTwoLists(ListNode* list1, ListNode* list2)

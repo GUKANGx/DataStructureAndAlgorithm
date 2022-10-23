@@ -7,11 +7,13 @@ add_subdirectory(googletest-release-1.11.0/)
 
 aux_source_directory(. SRC_LIST)
 aux_source_directory(./LeetCode SRC_LIST)
+aux_source_directory(./LeetCode/Utils SRC_LIST)
 aux_source_directory(./LeetCode/Easy SRC_LIST)
 aux_source_directory(./LeetCode/Medium SRC_LIST)
 aux_source_directory(./LeetCode/Hard SRC_LIST)
 include_directories(. )
 include_directories(googletest-release-1.11.0/googletest/include googletest-release-1.11.0/googlemock/include)
+include_directories(./LeetCode/Utils/)
 
 add_executable(DataStructureAndAlgorithmUsingCpp ${SRC_LIST})
 target_link_libraries(DataStructureAndAlgorithmUsingCpp gtest gtest_main)

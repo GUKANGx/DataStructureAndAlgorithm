@@ -9,7 +9,10 @@
 #include <cstring>
 #include <unordered_set>
 #include <unordered_map>
+#include <list>
 
 #include "gtest/gtest.h"
+#include "mylinklist.h"
+#include "mybinarytree.h"
 
 #endif //DATA_STRUCTURE_AND_ALGORITHM_MAIN_H
