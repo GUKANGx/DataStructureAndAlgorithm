@@ -47,7 +47,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q6_1)
+TEST(LeetCodeEnv, Q6_1)
 {
     string str = "PAYPALISHIRING";
     int numRows = 3;

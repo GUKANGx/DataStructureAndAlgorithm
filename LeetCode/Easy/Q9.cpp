@@ -22,7 +22,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q9_1)
+TEST(LeetCodeEnv, Q9_1)
 {
     int x = 121;
     Solution solution;

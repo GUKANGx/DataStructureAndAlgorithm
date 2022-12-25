@@ -21,7 +21,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q58_1)
+TEST(LeetCodeEnv, Q58_1)
 {
     string s = "Hello World";
     Solution solution;

@@ -15,7 +15,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q836_1)
+TEST(LeetCodeEnv, Q836_1)
 {
     vector<int> rec1 = {0, 0, 2, 2};
     vector<int> rec2 = {1, 1, 3, 3};

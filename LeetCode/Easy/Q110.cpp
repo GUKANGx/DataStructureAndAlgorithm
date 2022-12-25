@@ -60,7 +60,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q110_1)
+TEST(LeetCodeEnv, Q110_1)
 {
     Solution solution;
     vector<string> rootArr = {"3", "9", "20", "null", "null", "15", "7"};

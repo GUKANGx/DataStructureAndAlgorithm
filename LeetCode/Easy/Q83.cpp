@@ -23,7 +23,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q83_1)
+TEST(LeetCodeEnv, Q83_1)
 {
     vector<int> arr {1, 1, 2};
     ListNode *head = CreateLinkedList(arr);

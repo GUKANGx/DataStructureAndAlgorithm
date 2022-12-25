@@ -31,7 +31,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q844_1)
+TEST(LeetCodeEnv, Q844_1)
 {
     string s = "y#fo##f";
     string t = "y#f#o##f";

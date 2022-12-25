@@ -33,7 +33,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q88_1)
+TEST(LeetCodeEnv, Q88_1)
 {
     vector<int> nums1 = {1, 2, 3, 0, 0, 0};
     int m = 3;

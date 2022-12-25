@@ -21,7 +21,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q1103_1)
+TEST(LeetCodeEnv, Q1103_1)
 {
     int candies = 7;
     int num_people = 4;

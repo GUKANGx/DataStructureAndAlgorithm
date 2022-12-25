@@ -25,7 +25,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q118_1)
+TEST(LeetCodeEnv, Q118_1)
 {
     Solution solution;
     int numRows = 5;

@@ -26,7 +26,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q125_1)
+TEST(LeetCodeEnv, Q125_1)
 {
     Solution solution;
     string s = "0P";

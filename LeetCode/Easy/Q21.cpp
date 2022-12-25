@@ -29,7 +29,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q21_1)
+TEST(LeetCodeEnv, Q21_1)
 {
     vector<int> arr1 = {1, 2, 4};
     vector<int> arr2 = {1, 3, 4};

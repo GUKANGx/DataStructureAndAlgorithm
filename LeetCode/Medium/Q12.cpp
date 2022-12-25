@@ -39,7 +39,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q12_1)
+TEST(LeetCodeEnv, Q12_1)
 {
     int num = 1994;
     Solution solution;

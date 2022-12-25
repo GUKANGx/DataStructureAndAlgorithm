@@ -27,7 +27,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q1331_1)
+TEST(LeetCodeEnv, Q1331_1)
 {
     vector<int> arr = {40, 10, 20, 30};
     Solution solution;

@@ -25,7 +25,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q119_1)
+TEST(LeetCodeEnv, Q119_1)
 {
     Solution solution;
     int rowIndex = 3;

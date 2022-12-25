@@ -22,7 +22,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q1047_1)
+TEST(LeetCodeEnv, Q1047_1)
 {
     string s = "abbaca";
     Solution solution;

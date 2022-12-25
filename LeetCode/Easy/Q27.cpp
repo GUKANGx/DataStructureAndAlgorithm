@@ -18,7 +18,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q27_1)
+TEST(LeetCodeEnv, Q27_1)
 {
     vector<int> nums = {3, 2, 2, 3};
     int val = 3;

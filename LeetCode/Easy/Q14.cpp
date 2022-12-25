@@ -31,7 +31,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q14_1)
+TEST(LeetCodeEnv, Q14_1)
 {
     vector<string> strs =  {"a"};
     Solution solution;

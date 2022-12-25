@@ -70,7 +70,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q2047_1)
+TEST(LeetCodeEnv, Q2047_1)
 {
     string sentence = "cat and  dog";
     Solution solution;

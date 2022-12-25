@@ -44,7 +44,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q108_1)
+TEST(LeetCodeEnv, Q108_1)
 {
     vector<int> nums = {-10, -3, 0, 5, 9};
     Solution solution;

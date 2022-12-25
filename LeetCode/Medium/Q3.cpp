@@ -24,7 +24,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q3_1)
+TEST(LeetCodeEnv, Q3_1)
 {
     string str = "abcabcbb";
     Solution solution;

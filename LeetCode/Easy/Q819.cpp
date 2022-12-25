@@ -37,7 +37,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q819_1)
+TEST(LeetCodeEnv, Q819_1)
 {
     string paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.";
     vector<string> banned = {"hit"};

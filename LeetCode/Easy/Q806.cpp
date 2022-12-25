@@ -30,7 +30,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q806_1)
+TEST(LeetCodeEnv, Q806_1)
 {
     vector<int> widths = {10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10};
     string s = "abcdefghijklmnopqrstuvwxyz";

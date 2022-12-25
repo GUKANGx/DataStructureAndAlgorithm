@@ -24,7 +24,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q66_1)
+TEST(LeetCodeEnv, Q66_1)
 {
     vector<int> digits = {1, 2, 3};
     Solution solution;

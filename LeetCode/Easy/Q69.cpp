@@ -27,7 +27,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q69_1)
+TEST(LeetCodeEnv, Q69_1)
 {
     int x = 8;
     Solution solution;

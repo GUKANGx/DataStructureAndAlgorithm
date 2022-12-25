@@ -38,7 +38,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q13_1)
+TEST(LeetCodeEnv, Q13_1)
 {
     string str = "III";
     Solution s;

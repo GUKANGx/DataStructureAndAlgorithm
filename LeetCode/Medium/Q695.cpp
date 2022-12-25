@@ -49,7 +49,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q695_1)
+TEST(LeetCodeEnv, Q695_1)
 {
     vector<vector<int>> grid = {
             {0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},

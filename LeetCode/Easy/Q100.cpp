@@ -34,7 +34,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q100_1)
+TEST(LeetCodeEnv, Q100_1)
 {
     vector<string>pArr = {"1", "2", "3"};
     TreeNode *pRoot = CreateBinaryTree(pArr);

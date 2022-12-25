@@ -28,7 +28,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q703_1)
+TEST(LeetCodeEnv, Q703_1)
 {
     vector<int> nums {4, 5, 8, 2};
     KthLargest kthLargest(3, nums);

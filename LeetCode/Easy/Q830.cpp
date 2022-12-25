@@ -28,7 +28,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q830_1)
+TEST(LeetCodeEnv, Q830_1)
 {
     string s = "abcdddeeeeaabbbcd";
     Solution solution;

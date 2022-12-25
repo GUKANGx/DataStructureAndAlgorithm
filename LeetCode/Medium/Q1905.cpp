@@ -86,7 +86,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q1905_1)
+TEST(LeetCodeEnv, Q1905_1)
 {
     vector<vector<int>> grid1 = {
             { 1, 1, 1, 0, 0 },

@@ -32,7 +32,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q20_1)
+TEST(LeetCodeEnv, Q20_1)
 {
     string s = "()[]{}";
     Solution solution;

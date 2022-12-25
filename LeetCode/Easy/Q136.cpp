@@ -28,7 +28,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q136_1)
+TEST(LeetCodeEnv, Q136_1)
 {
     Solution solution;
     vector<int> num = { 2, 2, 1 };

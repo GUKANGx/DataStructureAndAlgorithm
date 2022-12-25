@@ -32,7 +32,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q67_1)
+TEST(LeetCodeEnv, Q67_1)
 {
     string a = "11", b = "1";
     Solution solution;

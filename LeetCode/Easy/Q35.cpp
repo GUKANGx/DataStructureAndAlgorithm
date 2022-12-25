@@ -23,7 +23,7 @@ namespace {
     };
 };
 
-TEST(leetcode, Q35_1)
+TEST(LeetCodeEnv, Q35_1)
 {
     vector<int> nums = {1, 3, 5, 6};
     int target = 2;
