@@ -9,6 +9,7 @@
 #include <cstring>
 #include <unordered_set>
 #include <unordered_map>
+#include <algorithm>
 #include <list>
 
 #include "gtest/gtest.h"
