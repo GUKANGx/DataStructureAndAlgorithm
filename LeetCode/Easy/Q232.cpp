@@ -3,42 +3,41 @@
 using namespace std;
 
 namespace {
-    class MyStack {
+    class MyQueue {
     public:
-        MyStack()
+        MyQueue()
         {
 
         }
 
         void push(int x)
         {
-            q.push_back(x);
+            s.push_back(x);
         }
 
         int pop()
         {
-            int ret = q.back();
-            q.pop_back();
+            int ret = s.front();
+            s.erase(s.begin());
             return ret;
         }
 
-        int top()
+        int peek()
         {
-            return q.back();
+            return s.front();
         }
 
         bool empty()
         {
-            return q.empty();
+            return s.empty();
         }
     private:
-        deque<int> q;
+        vector<int> s;
     };
-
 };
 
-TEST(LeetCodeEnv, Q225_1)
+TEST(LeetCodeEnv, Q232_1)
 {
-    MyStack myStack;
+    MyQueue myQueue;
 
 }
